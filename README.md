@@ -47,7 +47,7 @@ Os modelos generativos são uma classe de métodos de aprendizado de máquina qu
 
 
 <p align="center">
-	<img src="https://github.com/kgrosero/ia930/blob/main/2022.2/emo-diffusion/figures/diff2.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/GANs.png" align="middle" width="700">
 	  <figcaption>
   	Figura 2: Modelos GAN
   	</figcaption>
@@ -59,7 +59,7 @@ Um modelo de GAN é conhecido como DC-GAN[2], ou Deep Convolutional GAN, tem sid
 O gerador da DCGAN criada pode visto pela figura abaixo:
 
 <p align="center">
-	<img src="https://github.com/kgrosero/ia930/blob/main/2022.2/emo-diffusion/figures/diff2.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/dcgan_generator.png" align="middle" width="700">
 	  <figcaption>
   	Figura 3: Discriminador da DCGAN
   	</figcaption>
@@ -71,14 +71,14 @@ O gerador da DCGAN criada pode visto pela figura abaixo:
 Para este projeto será utilizado Google Colab Pro. O código base dos modelos de difusão foi desenvolvido em PyTorch e Keras e está disponível neste repositório: https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/dcgan/
 
 ### Resultados
-Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 'surprise', 'disgust') e o processo de geração através das épocas pode ser visto pelo GIF abaixo:
+Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 'surprise', 'disgust') e o processo de geração através das épocas pode ser visto pela imagem abaixo:
 
 
 
 <p align="center">
-	<img src="https://github.com/kgrosero/ia930/blob/main/2022.2/emo-diffusion/figures/results.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/geracaoimg.png" align="middle" width="700">
 	  <figcaption>
-  	Figura 3: GIF da geração de rostos com emoções
+  	Figura 3: Geração de rostos com emoções
   	</figcaption>
 </p>
 
@@ -89,7 +89,7 @@ Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 
 Segundo [3], uma maneira de avaliar as imagens geradas é através métrica IS(Insception Score) que mede o quão diverso e fiéis à base de treinamento as imagens são, o IS pode ser calculado pela equação abaixo:
 
 <p align="center">
-	<img src="https://github.com/kgrosero/ia930/blob/main/2022.2/emo-diffusion/figures/results.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/is.png" align="middle" width="700">
 	  <figcaption>
   	Figura 5: Interpretation score
   	</figcaption>
