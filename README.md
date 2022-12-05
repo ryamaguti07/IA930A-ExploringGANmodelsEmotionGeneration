@@ -59,7 +59,7 @@ Um modelo de GAN é conhecido como DC-GAN[2], ou Deep Convolutional GAN, tem sid
 O gerador da DCGAN criada pode visto pela figura abaixo:
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/dcgan_generator.png" align="middle" width="700">
+	<img src="https://raw.githubusercontent.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/dcgan_generator.png" align="middle" width="700">
 	  <figcaption>
   	Figura 3: Discriminador da DCGAN
   	</figcaption>
@@ -76,7 +76,7 @@ Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 
 
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/geracaoimg.png" align="middle" width="700">
+	<img src="https://raw.githubusercontent.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/geracaoimg.png" align="middle" width="700">
 	  <figcaption>
   	Figura 3: Geração de rostos com emoções
   	</figcaption>
@@ -89,7 +89,7 @@ Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 
 Segundo [3], uma maneira de avaliar as imagens geradas é através métrica IS(Insception Score) que mede o quão diverso e fiéis à base de treinamento as imagens são, o IS pode ser calculado pela equação abaixo:
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/is.png" align="middle" width="700">
+	<img src="https://raw.githubusercontent.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/is.PNG" align="middle" width="700">
 	  <figcaption>
   	Figura 5: Interpretation score
   	</figcaption>
