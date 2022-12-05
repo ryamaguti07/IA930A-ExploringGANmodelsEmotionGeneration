@@ -101,7 +101,7 @@ Foi calculado o IS para diferentes números de épocas e assim avaliar o desempe
 | 25 | 0.15283 | 
 | 50 | 0.15732 |
 | 75 | 0.3594 |
-| 100 | 0.3791 |
+| 100 | 0.37291 |
 
 ## Conclusões
 
