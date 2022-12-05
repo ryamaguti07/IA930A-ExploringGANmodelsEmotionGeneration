@@ -78,7 +78,7 @@ Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/geracaoimg.png" align="middle" width="700">
 	  <figcaption>
-  	Figura 3: Geração de rostos com emoções
+  	Figura 4: Geração de rostos com emoções
   	</figcaption>
 </p>
 
