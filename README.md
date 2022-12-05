@@ -1,4 +1,4 @@
-# `<EExplorando modelo de GAN para gerar imagens de rostros emocionais>`
+# `<Explorando modelo de GAN para gerar imagens de rostros emocionais>`
 # `<Exploring GAN model to generate images of emotional faces>`
 
 ## Apresentação
