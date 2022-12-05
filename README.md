@@ -47,7 +47,7 @@ Os modelos generativos são uma classe de métodos de aprendizado de máquina qu
 
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/GANs.png" align="middle" width="700">
+	<img src="https://raw.githubusercontent.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/GANs.png" align="middle" width="700">
 	  <figcaption>
   	Figura 2: Modelos GAN
   	</figcaption>
