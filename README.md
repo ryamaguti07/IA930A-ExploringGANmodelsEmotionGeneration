@@ -47,7 +47,7 @@ Os modelos generativos são uma classe de métodos de aprendizado de máquina qu
 
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/GANs.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/GANs.png" align="middle" width="700">
 	  <figcaption>
   	Figura 2: Modelos GAN
   	</figcaption>
@@ -59,7 +59,7 @@ Um modelo de GAN é conhecido como DC-GAN[2], ou Deep Convolutional GAN, tem sid
 O gerador da DCGAN criada pode visto pela figura abaixo:
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/dcgan_generator.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/dcgan_generator.png" align="middle" width="700">
 	  <figcaption>
   	Figura 3: Discriminador da DCGAN
   	</figcaption>
@@ -76,7 +76,7 @@ Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 
 
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/geracaoimg.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/geracaoimg.png" align="middle" width="700">
 	  <figcaption>
   	Figura 3: Geração de rostos com emoções
   	</figcaption>
@@ -89,7 +89,7 @@ Implementação do modelo de DCGAN com sentimentos ('neutral', 'fear', 'angry', 
 Segundo [3], uma maneira de avaliar as imagens geradas é através métrica IS(Insception Score) que mede o quão diverso e fiéis à base de treinamento as imagens são, o IS pode ser calculado pela equação abaixo:
 
 <p align="center">
-	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/tree/main/imgs/is.png" align="middle" width="700">
+	<img src="https://github.com/ryamaguti07/IA930A-ExploringGANmodelsEmotionGeneration/main/imgs/is.png" align="middle" width="700">
 	  <figcaption>
   	Figura 5: Interpretation score
   	</figcaption>
@@ -140,6 +140,9 @@ A continuação detalhamos as atividades a serem desenvolvidas nas próximas sem
 [3] Obukhov, Artem, and Mikhail Krasnyanskiy. "Quality assessment method for GAN based on modified metrics inception score and Fréchet inception distance." Proceedings of the Computational Methods in Systems and Software. Springer, Cham, 2020.
 
 Odena, Augustus, et al. "Is generator conditioning causally related to GAN performance?." International conference on machine learning. PMLR, 2018.
+
 Voynov, Andrey, and Artem Babenko. "Unsupervised discovery of interpretable directions in the gan latent space." International conference on machine learning. PMLR, 2020.
+
 Qiao, Fengchun, et al. "Geometry-contrastive gan for facial expression transfer." arXiv preprint arXiv:1802.01822 (2018).
+
 Luo, Yun, Li-Zhen Zhu, and Bao-Liang Lu. "A GAN-based data augmentation method for multimodal emotion recognition." International Symposium on Neural Networks. Springer, Cham, 2019.
